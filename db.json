@@ -1,0 +1,22 @@
+curl -X POST -H "Content-Type: application/json" -d ‘{
+ "start_date":"2016-09-21 10:40",
+ "end_date":"2017-01-21 10:40",
+ "plans":[
+         {
+         "id": 1,
+         "is_delete": false,
+         "data_limit":1000,
+         "use_hsim":false,
+         "start_date":"2016-09-22 10:40",
+         "end_date":"2016-12-23 10:40",
+         "coverage":[
+                     {
+                     "country":"SE"
+                     }
+                     {
+                     "country":"PK"
+                     }
+                     ]
+         }
+         ]
+    }
