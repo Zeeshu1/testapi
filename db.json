@@ -1,20 +1,14 @@
- "start_date":"2016-09-21 10:40",
- "end_date":"2017-01-21 10:40",
- "plans":[
-         {
-         "id": 1,
-         "is_delete": false,
-         "data_limit":1000,
-         "use_hsim":false,
-         "start_date":"2016-09-22 10:40",
-         "end_date":"2016-12-23 10:40",
-         "coverage":[
-                     {
-                     "country":"SE"
-                     }
-                     {
-                     "country":"PK"
-                     }
-                     ]
-         }
-         ]
+{
+  "posts": [
+    { "id": 1, "title": "Post 1" },
+    { "id": 2, "title": "Post 2" },
+    { "id": 3, "title": "Post 3" }
+  ],
+  "comments": [
+    { "id": 1, "body": "some comment", "postId": 1 },
+    { "id": 2, "body": "some comment", "postId": 1 }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
